@@ -1,0 +1,26 @@
+{
+  "name": "plutonicationserver",
+  "version": "0.1.0",
+  "description": "Server side code for Plutonication.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dusan Jansky",
+  "license": "MIT Licence",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/socket.io": "^3.0.2",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.50.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.7.2"
+  }
+}
